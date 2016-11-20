@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "handler-77ffe",
+    "staging": "handler-67279"
+  }
+}
