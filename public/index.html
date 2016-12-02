@@ -104,7 +104,7 @@
                     <!-- Begin MailChimp Signup Form -->                  
                     <div id="mailchimp" class="p-b-0">
                       <div id="mc_embed_signup">
-                       <form action="http://tayl.us7.list-manage1.com/subscribe/post?u=d9e994d687e0b45ddb935fda9&amp;id=72b08a595d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                       <form action="https://tayl.us7.list-manage.com/subscribe/post-json?u=d9e994d687e0b45ddb935fda9&id=72b08a595d&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                          <label class="align-left text-white m-b-10">Get notified when you can download the app.</label>
                          <div class="input-group">
                           <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
@@ -327,7 +327,7 @@
           var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
           var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
           $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
-          options = { url: 'http://tayl.us7.list-manage1.com/subscribe/post-json?u=d9e994d687e0b45ddb935fda9&id=72b08a595d&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+          options = { url: 'https://tayl.us7.list-manage.com/subscribe/post-json?u=d9e994d687e0b45ddb935fda9&id=72b08a595d&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
                         beforeSubmit: function(){
                             $('#mce_tmp_error_msg').remove();
                             $('.datefield','#mc_embed_signup').each(
