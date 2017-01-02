@@ -1675,13 +1675,13 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 16px 0px 6px 0px;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-weight: 300;
-  color: #2c2c2c;
+  color: #000000;
 }
 h1 {
   font-size: 44px;
@@ -1735,8 +1735,9 @@ h6.block {
 */
 a {
   text-shadow: none !important;
-  color: #3a8fc8;
+  color: #1dA1F2;
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.2s linear 0s !important;
+	font-weight: 400;
 }
 a:focus,
 a:hover,
@@ -1767,7 +1768,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.01em;
-  line-height: 25px;
+  line-height: 24px;
   margin: 0px 0px 10px 0px;
   font-style: normal;
   white-space: normal;
@@ -1785,7 +1786,7 @@ label.inline {
 ul > li,
 ol > li {
   padding-left: 3px;
-  line-height: 24px;
+  line-height: 26px;
 }
 ul.lg-icon > li,
 ol.lg-icon > li {
@@ -1914,7 +1915,7 @@ hr.dotted {
   background-color: #f0f0f0;
 }
 .bg-master-lightest {
-  background-color: #fafafa;
+  background-color: #f5f5f5;
 }
 .bg-master-dark {
   background-color: #2c2c2c;

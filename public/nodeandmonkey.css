@@ -97,7 +97,7 @@ background: #804dcc;
 color: #ffffff;
 height: 45px;
 border: 1px solid #804dcc;
-letter-spacing: 1px;
+letter-spacing: 0.5px;
 }
 
 button#mc-embedded-subscribe.btn.btn-default:hover{
